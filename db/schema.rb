@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(version: 2019_03_20_162723) do
     t.string "species"
     t.string "last_seen_location"
     t.integer "seen_count"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at", null: true
+    t.datetime "updated_at", null: true
   end
 
 end
